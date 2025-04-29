@@ -1,0 +1,180 @@
+.body-start {
+    font-family: 'Fredoka One', cursive;
+    background: linear-gradient(to bottom, #fef3e3, #d3f3fd);
+    text-align: center;
+    color: #333;
+    height: 97vh;
+    position: relative;
+}
+
+.img-start {
+    width: 180px;
+    height: auto;
+}
+
+.h1-start {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+    color: #3b3b3b;
+}
+
+.p-start {
+    font-size: 1.3em;
+    color: #555;
+    margin-bottom: 2em;
+}
+
+.btn-start {
+    background-color: #3372F5;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-start:hover {
+    background-color: #8048D2;
+}
+
+.bubbles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.4;
+    animation: float 10s infinite;
+}
+
+.bubble:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    background: #FE7782;
+    top: 20%;
+    left: 5%;
+    animation-delay: 0s;
+}
+
+.bubble:nth-child(2) {
+    width: 70px;
+    height: 70px;
+    background: #FCB55D;
+    top: 70%;
+    left: 70%;
+    animation-delay: 2s;
+}
+
+.bubble:nth-child(3) {
+    width: 50px;
+    height: 50px;
+    background: #3372F5;
+    top: 75%;
+    left: 20%;
+    animation-delay: 4s;
+}
+
+.bubble:nth-child(4) {
+    width: 80px;
+    height: 80px;
+    background: #8048D2;
+    top: 25%;
+    left: 80%;
+    animation-delay: 4s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.body-form {
+    font-family: 'Fredoka One', cursive;
+    background: linear-gradient(to bottom, #fce3f1, #d1f3ff);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    text-align: center;
+    overflow-y: auto;
+    min-height: 100vh;
+}
+
+.h1-form {
+    color: #3372F5; /* Rosita alegre */
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 2px 2px 4px #ffd1dc; /* Sombra suave rosita claro */
+    letter-spacing: 1.5px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #fff0f5; /* Fondo suave rosita */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra tipo tarjeta */
+    display: inline-block;
+  }
+  
+
+.question {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.question p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffd6e0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 15px 30px;
+    background-color: #FE7782;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #FCB55D;
+}
+
+#result {
+    font-size: 1.8em;
+    margin-top: 30px;
+    color: #2d2d2d;
+}
