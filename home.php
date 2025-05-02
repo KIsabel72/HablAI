@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,9 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet" />
     <link href="css/custom.css" rel="stylesheet">
 </head>
-
 <body class="body-form">
     <h1 class="h1-form">¿Cómo aprendes mejor?</h1>
+
     <?php
     $questions = [
         "1. Cuando aprendes algo nuevo en clase, te gusta más…" => [
@@ -56,23 +55,21 @@
 
         $mayor = array_search(max($scores), $scores);
 
+        // Redirigir según el tipo
         switch ($mayor) {
             case "VISUAL":
-                $message = "¡VISUAL!";
-                break;
+                header("Location: visual.php");
+                exit();
             case "AUDITIVO":
-                $message = "¡AUDITIVO!";
-                break;
+                header("Location: auditivo.php");
+                exit();
             case "LECTURA":
-                $message = "¡LECTURA/ESCRITURA!";
-                break;
+                header("Location: lectura.php");
+                exit();
             case "KINESTESICO":
-                $message = "¡KINESTÉSICO! ";
-                break;
+                header("Location: kinestesico.php");
+                exit();
         }
-
-        echo "<div id='result'>$message</div>";
-        echo "<br><a href='" . $_SERVER['PHP_SELF'] . "'><button class='btn-submit'>Volver a intentar</button></a>";
     } else {
         echo "<form method='POST'>";
         $i = 1;
@@ -80,7 +77,7 @@
             echo "<div class='question'>";
             echo "<p>$q</p>";
             foreach ($answers as $key => [$text, $type]) {
-                echo "<label><input type='radio' name='q$i' value='$type' required /> $key) $text</label><br>";
+                echo "<label class='option'><input type='radio' name='q$i' value='$type' required /> $key) $text</label><br>";
             }
             echo "</div>";
             $i++;
@@ -89,6 +86,5 @@
         echo "</form>";
     }
     ?>
-
 </body>
 </html>

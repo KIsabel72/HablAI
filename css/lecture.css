@@ -1,0 +1,102 @@
+body {
+    font-family: 'Fredoka One', cursive;
+    background: linear-gradient(to bottom, #fef3e3, #d3f3fd);
+    color: #333;
+    min-height: 97vh;
+    position: relative;
+
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.accordion-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-title {
+    padding: 15px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+
+.accordion-item:nth-of-type(4n+1) .accordion-title {
+    background-color: #FE7782;
+}
+
+
+.accordion-item:nth-of-type(4n+2) .accordion-title {
+    background-color: #3372F5;
+}
+
+
+.accordion-item:nth-of-type(4n+3) .accordion-title {
+    background-color: #FCB55D;
+}
+
+
+.accordion-item:nth-of-type(4n) .accordion-title {
+    background-color: #8048D2;
+}
+
+.accordion-title:hover {
+    filter: brightness(1.3);
+  }
+
+.accordion-content {
+    padding: 15px 20px;
+    display: none;
+    background-color: #fff;
+    color: #333;
+    max-height: none;
+    /* permite mostrar todo el contenido */
+    overflow: auto;
+    /* permite scroll si es necesario */
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+/* Extra: estiliza la tabla para que se vea más clara y atractiva */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+thead {
+    background-color: #bebebe;
+    font-weight: bold;
+    color: #000000;
+}

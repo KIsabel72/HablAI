@@ -118,19 +118,19 @@
 }
 
 .h1-form {
-    color: #3372F5; /* Rosita alegre */
+    color: #3372F5;
     font-size: 2.8em;
     margin-bottom: 20px;
     font-family: 'Fredoka One', cursive;
-    text-shadow: 2px 2px 4px #ffd1dc; /* Sombra suave rosita claro */
+    text-shadow: 2px 2px 4px #ffd1dc;
     letter-spacing: 1.5px;
     padding: 10px;
     border-radius: 15px;
-    background-color: #fff0f5; /* Fondo suave rosita */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra tipo tarjeta */
+    background-color: #fff0f5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
-  }
-  
+}
+
 
 .question {
     background: white;
@@ -148,11 +148,7 @@
 
 .option {
     display: block;
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #ffd6e0;
     border: none;
-    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -177,4 +173,10 @@
     font-size: 1.8em;
     margin-top: 30px;
     color: #2d2d2d;
+}
+
+.body-lecture {
+    background-color: #f8f9fa;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
