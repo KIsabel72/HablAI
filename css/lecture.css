@@ -19,10 +19,17 @@ h1 {
     margin-bottom: 30px;
 }
 
-p {
+h2 {
     text-align: center;
-    font-weight: bold;
-    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .accordion-item {
@@ -63,7 +70,7 @@ p {
 
 .accordion-title:hover {
     filter: brightness(1.3);
-  }
+}
 
 .accordion-content {
     padding: 15px 20px;
