@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 .body-start {
     font-family: 'Fredoka One', cursive;
     background: linear-gradient(to bottom, #fef3e3, #d3f3fd);
     text-align: center;
     color: #333;
-    height: 97vh;
+    height: 96vh;
     position: relative;
+    overflow: visible;
 }
 
 .img-start {
     width: 180px;
     height: auto;
+    text-align: center;
 }
 
 .h1-start {
@@ -47,6 +51,7 @@
     top: 0;
     left: 0;
     z-index: -1;
+    animation: float 20s linear infinite;
 }
 
 .bubble {
@@ -60,8 +65,8 @@
     width: 100px;
     height: 100px;
     background: #FE7782;
-    top: 20%;
-    left: 5%;
+    top: 10%;
+    left: 10%;
     animation-delay: 0s;
 }
 
@@ -69,7 +74,7 @@
     width: 70px;
     height: 70px;
     background: #FCB55D;
-    top: 70%;
+    top: 20%;
     left: 70%;
     animation-delay: 2s;
 }
@@ -78,8 +83,8 @@
     width: 50px;
     height: 50px;
     background: #3372F5;
-    top: 75%;
-    left: 20%;
+    top: 30%;
+    left: 25%;
     animation-delay: 4s;
 }
 
@@ -87,10 +92,137 @@
     width: 80px;
     height: 80px;
     background: #8048D2;
-    top: 25%;
+    top: 15%;
     left: 80%;
     animation-delay: 4s;
 }
+
+.bubble:nth-child(5) {
+    width: 80px;
+    height: 80px;
+    background: #8048D2;
+    top: 40%;
+    left: 15%;
+    animation-delay: 4s;
+}
+
+.bubble:nth-child(6) {
+    width: 70px;
+    height: 70px;
+    background: #FCB55D;
+    top: 50%;
+    left: 5%;
+    animation-delay: 2s;
+}
+
+.bubble:nth-child(7) {
+    width: 100px;
+    height: 100px;
+    background: #FE7782;
+    top: 35%;
+    left: 75%;
+    animation-delay: 0s;
+}
+
+.bubble:nth-child(8) {
+    width: 50px;
+    height: 50px;
+    background: #3372F5;
+    top: 55%;
+    left: 85%;
+    animation-delay: 4s;
+}
+
+.bubble:nth-child(9) {
+    width: 50px;
+    height: 50px;
+    background: #8048D2;
+    top: 65%;
+    left: 55%;
+    animation-delay: 0s;
+}
+
+.bubble:nth-child(10) {
+    width: 80px;
+    height: 80px;
+    background: #FE7782;
+    top: 60%;
+    left: 35%;
+    animation-delay: 4s;
+}
+
+.bubble:nth-child(11) {
+    width: 100px;
+    height: 100px;
+    background: #FE7782;
+    top: 75%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.bubble:nth-child(12) {
+    width: 70px;
+    height: 70px;
+    background: #FCB55D;
+    top: 70%;
+    left: 70%;
+    animation-delay: 2s;
+}
+
+.bubble:nth-child(13) {
+    width: 50px;
+    height: 50px;
+    background: #3372F5;
+    top: 80%;
+    left: 30%;
+    animation-delay: 4s;
+}
+
+.bubble:nth-child(14) {
+    width: 80px;
+    height: 80px;
+    background: #8048D2;
+    top: 85%;
+    left: 85%;
+    animation-delay: 2s;
+}
+
+.bubble:nth-child(15) {
+    width: 80px;
+    height: 80px;
+    background: #8048D2;
+    top: 90%;
+    left: 50%;
+    animation-delay: 2s;
+}
+
+.bubble:nth-child(16) {
+    width: 70px;
+    height: 70px;
+    background: #FCB55D;
+    top: 92%;
+    left: 15%;
+    animation-delay: 2s;
+}
+
+.bubble:nth-child(17) {
+    width: 100px;
+    height: 100px;
+    background: #FE7782;
+    top: 78%;
+    left: 60%;
+    animation-delay: 0s;
+}
+
+.bubble:nth-child(18) {
+    width: 50px;
+    height: 50px;
+    background: #3372F5;
+    top: 68%;
+    left: 40%;
+    animation-delay: 4s;
+}
+
 
 @keyframes float {
     0% {
@@ -98,7 +230,7 @@
     }
 
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-30px);
     }
 
     100% {
@@ -113,24 +245,54 @@
     padding: 20px;
     color: #333;
     text-align: center;
-    overflow-y: auto;
+    overflow-x: visible;
+    overflow-y: visible;
     min-height: 100vh;
+    position: relative;
 }
+
+
+.sticker-titulo {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 30px;
+    background-color: #f8f3ff;
+    border: 3px dashed #8048D2;
+    border-radius: 25px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    animation: bounceIn 1s ease;
+    margin: 40px auto;
+    font-family: 'Baloo 2', cursive;
+}
+
 
 .h1-form {
-    color: #3372F5;
-    font-size: 2.8em;
-    margin-bottom: 20px;
-    font-family: 'Fredoka One', cursive;
-    text-shadow: 2px 2px 4px #ffd1dc;
-    letter-spacing: 1.5px;
-    padding: 10px;
-    border-radius: 15px;
-    background-color: #fff0f5;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    display: inline-block;
+    font-size: 3rem;
+    color: #8048D2;
+    text-shadow: 2px 6px #b29cd3;
+    font-family: 'Fredoka One';
 }
 
+.icono {
+    font-size: 2.5rem;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.3);
+        opacity: 0;
+    }
+
+    70% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
 
 .question {
     background: white;
