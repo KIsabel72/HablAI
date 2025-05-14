@@ -4,10 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Menú Central</title>
-
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/glightbox.min.css" rel="stylesheet">
-    <link href="css/lecture.css" rel="stylesheet">
+    <link href="css/learning.css" rel="stylesheet">
 </head>
 
 <body class="body-lecture">

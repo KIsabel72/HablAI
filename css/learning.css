@@ -135,13 +135,20 @@ thead {
     color: #333;
 }
 
-@media (max-width: 600px) {
-    .video-header {
-        font-size: 1rem;
-        padding: 15px;
-    }
+.audio-card {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    overflow: hidden;
+}
 
-    .video-description {
-        font-size: 0.95rem;
-    }
+.audio-content {
+    padding: 20px;
+}
+
+audio {
+    width: 100%;
+    outline: none;
 }
