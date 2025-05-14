@@ -13,7 +13,7 @@
 
         <div class="accordion-item">
             <div class="accordion-title" onclick="toggleAccordion(this)">Tema 1: Abecedario</div>
-            <div class="accordion-content">
+            <div class="accordion-content h1">
                 <table class="table table-bordered">
                     <thead class="thead-light">
                         <tr>
@@ -1154,25 +1154,148 @@
         <div class="accordion-item">
             <div class="accordion-title" onclick="toggleAccordion(this)">Tema 12: Profesiones</div>
             <div class="accordion-content">
-                <p>Días de la semana, colores, números, etc.</p>
+                <table class="table table-bordered">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Inglés</th>
+                            <th>Español</th>
+                            <th>Pronunciación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Doctor</td>
+                            <td>Doctor</td>
+                            <td>dóctor</td>
+                        </tr>
+                        <tr>
+                            <td>Teacher</td>
+                            <td>Maestro</td>
+                            <td>tícher</td>
+                        </tr>
+                        <tr>
+                            <td>Police Officer</td>
+                            <td>Policía</td>
+                            <td>polís ófiser</td>
+                        </tr>
+                        <tr>
+                            <td>Engineer</td>
+                            <td>Ingeniero</td>
+                            <td>enyiníer</td>
+                        </tr>
+                        <tr>
+                            <td>Chef</td>
+                            <td>Cocinero</td>
+                            <td>chef</td>
+                        </tr>
+                        <tr>
+                            <td>Lawyer</td>
+                            <td>Abogado</td>
+                            <td>lóyer</td>
+                        </tr>
+                        <tr>
+                            <td>Actor</td>
+                            <td>Actor</td>
+                            <td>áctor</td>
+                        </tr>
+                        <tr>
+                            <td>Singer</td>
+                            <td>Cantante</td>
+                            <td>sínger</td>
+                        </tr>
+                        <tr>
+                            <td>Nurse</td>
+                            <td>Enfermera</td>
+                            <td>néers</td>
+                        </tr>
+                        <tr>
+                            <td>Firefighter</td>
+                            <td>Bombero</td>
+                            <td>fáier-fáiter</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         <div class="accordion-item">
             <div class="accordion-title" onclick="toggleAccordion(this)">Tema 13: Pronombres Personales</div>
             <div class="accordion-content">
-                <p>Días de la semana, colores, números, etc.</p>
+                <dl>
+                    <dt>I <span style="color:red;"><strong>--</strong></span> Yo</dt>
+                    <dt>You  <span style="color:red;"><strong>--</strong></span> Tú</dt>
+                    <dt>He   <span style="color:red;"><strong>--</strong></span> Él</dt>
+                    <dt>She <span style="color:red;"><strong>--</strong></span> Ella</dt>
+                    <dt>It   <span style="color:red;"><strong>--</strong></span> Eso/Esos (para objetos o animales)</dt>
+                    <dt>We   <span style="color:red;"><strong>--</strong></span> Nosotros</dt>
+                    <dt>They <span style="color:red;"><strong>--</strong></span> Ellos</dt>
+                </dl>
             </div>
         </div>
         <div class="accordion-item">
             <div class="accordion-title" onclick="toggleAccordion(this)">Tema 14: Saludos y Presentaciones</div>
             <div class="accordion-content">
-                <p>Días de la semana, colores, números, etc.</p>
+                <h3>Saludos formales:</h3>
+                <dl>
+                    <dt>Good morning <span style="color:red;"><strong>--</strong></span> Buenos días</dt>
+                    <dt>Good afternoon  <span style="color:red;"><strong>--</strong></span> Buenas tardes</dt>
+                    <dt>Good evening   <span style="color:red;"><strong>--</strong></span> Buenas noches</dt>
+                </dl>
+                <h3>Saludos informales:</h3>
+                <dl>
+                    <dt>Hi! <span style="color:red;"><strong>--</strong></span> ¡Hola!</dt>
+                    <dt>Hey!  <span style="color:red;"><strong>--</strong></span> ¡Hey!</dt>
+                </dl>
+                <h3>Cómo saludar y presentarse</h3>
+                <table class="table table-bordered">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Inglés</th>
+                            <th>Español</th>
+                            <th>Pronunciación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Hello!</td>
+                            <td>¡Hola!</td>
+                            <td>jelóu</td>
+                        </tr>
+                        <tr>
+                            <td>My name is John</td>
+                            <td>Me llamo John</td>
+                            <td>mái néim is...</td>
+                        </tr>
+                        <tr>
+                            <td>I am from Mexico</td>
+                            <td>Soy de Mexico</td>
+                            <td>ai am from...</td>
+                        </tr>
+                        <tr>
+                            <td>Nice to meet you</td>
+                            <td>Mucho gusto</td>
+                            <td>náis tu míit iú</td>
+                        </tr>
+                        <tr>
+                            <td>How are you?</td>
+                            <td>¿Cómo estás?</td>
+                            <td>jáu ar iú</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         <div class="accordion-item">
             <div class="accordion-title" onclick="toggleAccordion(this)">Tema 15: Verbo to be</div>
             <div class="accordion-content">
-                <p>Días de la semana, colores, números, etc.</p>
+                <dl>
+                    <dt>I am<span style="color:red;"><strong>--</strong></span> Yo soy/estoy</dt>
+                    <dt>You are  <span style="color:red;"><strong>--</strong></span> Tú eres/estás</dt>
+                    <dt>He is  <span style="color:red;"><strong>--</strong></span> Él es/está</dt>
+                    <dt>She is <span style="color:red;"><strong>--</strong></span> Ella es/está</dt>
+                    <dt>It is  <span style="color:red;"><strong>--</strong></span> Eso es/está (para objetos o animales)</dt>
+                    <dt>We are  <span style="color:red;"><strong>--</strong></span> Nosotros somos/estamos</dt>
+                    <dt>They are <span style="color:red;"><strong>--</strong></span> Ellos son/están</dt>
+                </dl>
             </div>
         </div>
     </div>

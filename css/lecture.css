@@ -107,3 +107,41 @@ thead {
     font-weight: bold;
     color: #000000;
 }
+
+
+.video-card {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 720px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.video-content {
+    padding: 20px;
+}
+
+.video-content video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.video-description {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .video-header {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    .video-description {
+        font-size: 0.95rem;
+    }
+}
