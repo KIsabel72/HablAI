@@ -5,12 +5,32 @@
     <meta charset="UTF-8">
     <title>Menú Central</title>
     <link href="css/learning.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 </head>
 
-<body class="body-lecture">
+<body class="body">
     <div class="wrapper">
-        <h1 class="h1-lecture">¡APRENDES VIENDO!</h1>
-
+        <h1 class="h1">¡APRENDES VIENDO!</h1>
+        <div class="bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
         <div class="accordion-item">
             <div class="accordion-title" onclick="toggleAccordion(this)">Tema 1: Abecedario</div>
             <div class="accordion-content">
@@ -40,209 +60,8 @@
                 </div>
             </div>
         </div>
-
         <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 2: Colores</div>
-            <div class="accordion-content">
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/COLORES/colores1.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/COLORES/colores2.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 3: Días y Meses</div>
-            <div class="accordion-content">
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/DÍAS DE LA SEMANA Y MESES/DIAS DE LA SEMANA.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/DÍAS DE LA SEMANA Y MESES/DIAS.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source
-                                src="VISUAL/DÍAS DE LA SEMANA Y MESES/INGLÉS PARA NIÑOS CON MR PEA - LOS MESES DEL AÑO (nivel básico).mp4"
-                                type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/DÍAS DE LA SEMANA Y MESES/MESES DEL AÑO.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 4: Figuras</div>
-            <div class="accordion-content">
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/FIGURAS/figuras1.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/FIGURAS/figuras2.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/FIGURAS/figuras3.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 5: Frases de Cortesía</div>
-            <div class="accordion-content">
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source
-                                src="VISUAL/FRASES DE CORTESIA/CÓMO DAR LAS GRACIAS EN INGLÉS (THANKS) - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
-                                type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/FRASES DE CORTESIA/Las normas de Cortesia en INGLES para niños.mp4"
-                                type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 6: La Familia</div>
-            <div class="accordion-content">
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source
-                                src="VISUAL/LA FAMILIA/Inglés para Niños con El Mono Silabo - La Familia - Lunacreciente.mp4"
-                                type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/LA FAMILIA/La Familia en Inglés _ Miembros de La Familia en Inglés.mp4"
-                                type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source
-                                src="VISUAL/LA FAMILIA/Miembros de la familia en inglés _ Vídeos Educativos para Niños. Aprende inglés.mp4"
-                                type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 7: Las Fechas</div>
-            <div class="accordion-content">
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/LAS FECHAS/fecha1.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/LAS FECHAS/fecha2.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 8: Los Números</div>
-            <div class="accordion-content">
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source
-                                src="VISUAL/LOS NUMEROS/Los Números en Inglés del 1 al 100 _ Contar hasta el 100 en Inglés.mp4"
-                                type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/LOS NUMEROS/NUMBERS.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source src="VISUAL/LOS NUMEROS/NUMEROS.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 9: Palabras Comunes</div>
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 2: Palabras Comunes</div>
             <div class="accordion-content">
                 <div class="video-card">
                     <div class="video-content">
@@ -286,7 +105,148 @@
             </div>
         </div>
         <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 10: Partes del Cuerpo</div>
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 3: Los Números</div>
+            <div class="accordion-content">
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source
+                                src="VISUAL/LOS NUMEROS/Los Números en Inglés del 1 al 100 _ Contar hasta el 100 en Inglés.mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/LOS NUMEROS/NUMBERS.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/LOS NUMEROS/NUMEROS.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 4: Días y Meses</div>
+            <div class="accordion-content">
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/DÍAS DE LA SEMANA Y MESES/DIAS DE LA SEMANA.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/DÍAS DE LA SEMANA Y MESES/DIAS.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source
+                                src="VISUAL/DÍAS DE LA SEMANA Y MESES/INGLÉS PARA NIÑOS CON MR PEA - LOS MESES DEL AÑO (nivel básico).mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/DÍAS DE LA SEMANA Y MESES/MESES DEL AÑO.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 5: Las Fechas</div>
+            <div class="accordion-content">
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/LAS FECHAS/fecha1.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/LAS FECHAS/fecha2.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 6: Colores</div>
+            <div class="accordion-content">
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/COLORES/colores1.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/COLORES/colores2.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 7: Figuras</div>
+            <div class="accordion-content">
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/FIGURAS/figuras1.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/FIGURAS/figuras2.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/FIGURAS/figuras3.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 8: Partes del Cuerpo</div>
             <div class="accordion-content">
                 <div class="video-card">
                     <div class="video-content">
@@ -321,13 +281,13 @@
             </div>
         </div>
         <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 11: Presente Continuo</div>
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 9: Pronombres Personales</div>
             <div class="accordion-content">
                 <div class="video-card">
                     <div class="video-content">
                         <video controls>
                             <source
-                                src="VISUAL/PRESENTE CONTINUO/EJERCICIO_ PRESENT CONTINUOUS - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
+                                src="VISUAL/PRONOMBRES PERSONALES/INGLÉS PARA NIÑOS CON MR. PEA [ENGLISH FOR KIDS] - PRONOMBRES PERSONALES.mp4"
                                 type="video/mp4">
                             Tu navegador no soporta la reproducción de video.
                         </video>
@@ -337,7 +297,7 @@
                     <div class="video-content">
                         <video controls>
                             <source
-                                src="VISUAL/PRESENTE CONTINUO/PRESENT CONTINUOUS (EXPLICACIÓN + PRÁCTICA) - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
+                                src="VISUAL/PRONOMBRES PERSONALES/Los Pronombres Personales en INGLÉS para niños.mp4"
                                 type="video/mp4">
                             Tu navegador no soporta la reproducción de video.
                         </video>
@@ -347,7 +307,7 @@
                     <div class="video-content">
                         <video controls>
                             <source
-                                src="VISUAL/PRESENTE CONTINUO/PRESENT SIMPLE VS PRESENT CONTINUOUS- INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
+                                src="VISUAL/PRONOMBRES PERSONALES/PRONOMBRES PERSONALES EN INGLÉS _ APRENDER INGLÉS FÁCIL.mp4"
                                 type="video/mp4">
                             Tu navegador no soporta la reproducción de video.
                         </video>
@@ -356,13 +316,22 @@
             </div>
         </div>
         <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 12:Presente Simple</div>
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 10: La Familia</div>
             <div class="accordion-content">
                 <div class="video-card">
                     <div class="video-content">
                         <video controls>
                             <source
-                                src="VISUAL/PRESENTE SIMPLE/CÓMO PREGUNTAR EN PRESENT SIMPLE - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
+                                src="VISUAL/LA FAMILIA/Inglés para Niños con El Mono Silabo - La Familia - Lunacreciente.mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/LA FAMILIA/La Familia en Inglés _ Miembros de La Familia en Inglés.mp4"
                                 type="video/mp4">
                             Tu navegador no soporta la reproducción de video.
                         </video>
@@ -372,27 +341,7 @@
                     <div class="video-content">
                         <video controls>
                             <source
-                                src="VISUAL/PRESENTE SIMPLE/PRACTICANDO EL PRESENT SIMPLE (CON EJEMPLOS) - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
-                                type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source
-                                src="VISUAL/PRESENTE SIMPLE/PRACTICANDO EL PRESENT SIMPLE CON SUPERHEROES - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
-                                type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source
-                                src="VISUAL/PRESENTE SIMPLE/PRESENT SIMPLE   INGLÉS PARA NIÑOS CON MR  PEA   ENGLISH FOR KIDS.mp4"
+                                src="VISUAL/LA FAMILIA/Miembros de la familia en inglés _ Vídeos Educativos para Niños. Aprende inglés.mp4"
                                 type="video/mp4">
                             Tu navegador no soporta la reproducción de video.
                         </video>
@@ -401,7 +350,100 @@
             </div>
         </div>
         <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 13: Profesiones</div>
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 11: Verbo to be</div>
+            <div class="accordion-content">
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source
+                                src="VISUAL/VERB TO BE/EL VERBO TO BE EN INGLÉS DE MANERA FÁCIL Y RÁPIDA _ CLASE DE INGLÉS AMIGO MUMU (1).mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source
+                                src="VISUAL/VERB TO BE/HACER PREGUNTAS CON EL VERBO TO BE - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source
+                                src="VISUAL/VERB TO BE/TO BE [ Present simple] -  APRENDE INGLÉS CON MR PEA ENGLISH FOR KIDS.mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 12: Saludos y Presentaciones</div>
+            <div class="accordion-content">
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source
+                                src="VISUAL/SALUDOS Y PRESENTACIONES/GREETINGS - SALUDOS EN INGLÉS - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source
+                                src="VISUAL/SALUDOS Y PRESENTACIONES/PRESENTACIONES Y SALUDOS. CONOCIENDO A ALGUIEN - INGLÉS PARA NIÑOS CON MR. PEA [ENGLISH FOR KIDS].mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/SALUDOS Y PRESENTACIONES/Saludos en Inglés _ Inglés para Niños.mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 13: Frases de Cortesía</div>
+            <div class="accordion-content">
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source
+                                src="VISUAL/FRASES DE CORTESIA/CÓMO DAR LAS GRACIAS EN INGLÉS (THANKS) - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source src="VISUAL/FRASES DE CORTESIA/Las normas de Cortesia en INGLES para niños.mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 14: Profesiones</div>
             <div class="accordion-content">
                 <div class="video-card">
                     <div class="video-content">
@@ -446,13 +488,13 @@
             </div>
         </div>
         <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 14: Pronombres Personales</div>
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 15:Presente Simple</div>
             <div class="accordion-content">
                 <div class="video-card">
                     <div class="video-content">
                         <video controls>
                             <source
-                                src="VISUAL/PRONOMBRES PERSONALES/INGLÉS PARA NIÑOS CON MR. PEA [ENGLISH FOR KIDS] - PRONOMBRES PERSONALES.mp4"
+                                src="VISUAL/PRESENTE SIMPLE/CÓMO PREGUNTAR EN PRESENT SIMPLE - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
                                 type="video/mp4">
                             Tu navegador no soporta la reproducción de video.
                         </video>
@@ -462,7 +504,7 @@
                     <div class="video-content">
                         <video controls>
                             <source
-                                src="VISUAL/PRONOMBRES PERSONALES/Los Pronombres Personales en INGLÉS para niños.mp4"
+                                src="VISUAL/PRESENTE SIMPLE/PRACTICANDO EL PRESENT SIMPLE (CON EJEMPLOS) - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
                                 type="video/mp4">
                             Tu navegador no soporta la reproducción de video.
                         </video>
@@ -472,7 +514,17 @@
                     <div class="video-content">
                         <video controls>
                             <source
-                                src="VISUAL/PRONOMBRES PERSONALES/PRONOMBRES PERSONALES EN INGLÉS _ APRENDER INGLÉS FÁCIL.mp4"
+                                src="VISUAL/PRESENTE SIMPLE/PRACTICANDO EL PRESENT SIMPLE CON SUPERHEROES - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-content">
+                        <video controls>
+                            <source
+                                src="VISUAL/PRESENTE SIMPLE/PRESENT SIMPLE   INGLÉS PARA NIÑOS CON MR  PEA   ENGLISH FOR KIDS.mp4"
                                 type="video/mp4">
                             Tu navegador no soporta la reproducción de video.
                         </video>
@@ -481,13 +533,13 @@
             </div>
         </div>
         <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 15: Saludos y Presentaciones</div>
+            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 16: Presente Continuo</div>
             <div class="accordion-content">
                 <div class="video-card">
                     <div class="video-content">
                         <video controls>
                             <source
-                                src="VISUAL/SALUDOS Y PRESENTACIONES/GREETINGS - SALUDOS EN INGLÉS - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
+                                src="VISUAL/PRESENTE CONTINUO/EJERCICIO_ PRESENT CONTINUOUS - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
                                 type="video/mp4">
                             Tu navegador no soporta la reproducción de video.
                         </video>
@@ -497,7 +549,7 @@
                     <div class="video-content">
                         <video controls>
                             <source
-                                src="VISUAL/SALUDOS Y PRESENTACIONES/PRESENTACIONES Y SALUDOS. CONOCIENDO A ALGUIEN - INGLÉS PARA NIÑOS CON MR. PEA [ENGLISH FOR KIDS].mp4"
+                                src="VISUAL/PRESENTE CONTINUO/PRESENT CONTINUOUS (EXPLICACIÓN + PRÁCTICA) - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
                                 type="video/mp4">
                             Tu navegador no soporta la reproducción de video.
                         </video>
@@ -507,42 +559,7 @@
                     <div class="video-content">
                         <video controls>
                             <source
-                                src="VISUAL/SALUDOS Y PRESENTACIONES/Saludos en Inglés _ Inglés para Niños.mp4"
-                                type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <div class="accordion-title" onclick="toggleAccordion(this)">Tema 16: Verbo to be</div>
-            <div class="accordion-content">
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source
-                                src="VISUAL/VERB TO BE/EL VERBO TO BE EN INGLÉS DE MANERA FÁCIL Y RÁPIDA _ CLASE DE INGLÉS AMIGO MUMU (1).mp4"
-                                type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source
-                                src="VISUAL/VERB TO BE/HACER PREGUNTAS CON EL VERBO TO BE - INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
-                                type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-                <div class="video-card">
-                    <div class="video-content">
-                        <video controls>
-                            <source
-                                src="VISUAL/VERB TO BE/TO BE [ Present simple] -  APRENDE INGLÉS CON MR PEA ENGLISH FOR KIDS.mp4"
+                                src="VISUAL/PRESENTE CONTINUO/PRESENT SIMPLE VS PRESENT CONTINUOUS- INGLÉS PARA NIÑOS CON MR.PEA - ENGLISH FOR KIDS.mp4"
                                 type="video/mp4">
                             Tu navegador no soporta la reproducción de video.
                         </video>
